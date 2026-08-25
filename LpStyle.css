@@ -6,7 +6,7 @@
 
 .banner {
   width: 100vw;
-  height: 7vw;
+  height: 5vw;
   background-color: rgb(0, 52, 141);
   align-items: center;
   justify-content: end;
@@ -28,4 +28,30 @@
 .CartbuyImg {
     width: 64px;
     justify-content: end;
+}
+
+.AdIC {
+  width: 10vw;
+}
+
+.page-container {
+  display: grid;
+  grid-template-columns: 550px 1fr;
+  min-height: 55vh;
+}
+
+.left-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AdImage { 
+  width: 350px; 
+  height: 350px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-end;
+  justify-content: space-around;
+  background-color: cornflowerblue;
 }
