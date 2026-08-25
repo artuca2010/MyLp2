@@ -1,18 +1,31 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 100vw;
+  height: 7vw;
+  background-color: rgb(0, 52, 141);
+  align-items: center;
+  justify-content: end;
+  display: flex;
+}
+
+.bannerTxt {
+    font-size: 36px;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    color: rgb(102, 150, 255);
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    height: 100vh;
+.ProfileImg {
+    width: 64px;
+    justify-content: end;
+    margin-left: auto;
 }
 
-img {
-    width: 75vw;
-    height: 75vw;
+.CartbuyImg {
+    width: 64px;
+    justify-content: end;
 }
