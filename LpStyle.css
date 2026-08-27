@@ -7,37 +7,89 @@
 .banner {
   width: 100vw;
   height: 5vw;
-  background-color: rgb(0, 52, 141);
+  background-color: #e01212;
   align-items: center;
-  justify-content: end;
   display: flex;
 }
 
+#b1 {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  width: 45vw;
+}
+
+#b2 {
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Logo {
+  display: flex;
+  justify-content: start;
+  width: 64px;
+}
+
 .bannerTxt {
-    font-size: 36px;
-    margin: 0;
-    color: rgb(102, 150, 255);
+  font-size: 36px;
+  margin: 0;
+  color: rgb(191, 0, 185);
 }
 
 .ProfileImg {
-    width: 64px;
-    justify-content: end;
-    margin-left: auto;
+  width: 3.25rem;
+  justify-content: end;
+  margin-left: auto;
 }
 
 .CartbuyImg {
-    width: 64px;
-    justify-content: end;
+  width: 52px;
+  justify-content: end;
+
+}
+
+.SearchBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font: bold;
+  font-size: 5;
+  background-color: #181818;
+  gap: 20px;
+}
+
+.MarketPlace {
+  color: white;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 5;
+  font-weight: bold;
 }
 
 .AdIC {
-  width: 10vw;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.MsgIC {
+  color: white;
+  font-size: 2;
+  font-weight: bold;
 }
 
 .page-container {
-  display: grid;
-  grid-template-columns: 550px 1fr;
-  min-height: 55vh;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 100px;
+  gap: 20px;
 }
 
 .left-column {
@@ -46,12 +98,14 @@
   align-items: center;
 }
 
-.AdImage { 
-  width: 350px; 
-  height: 350px; 
-  display: flex; 
-  flex-direction: column; 
+.AdImage {
+  width: 310px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
   justify-content: flex-end;
   justify-content: space-around;
-  background-color: cornflowerblue;
+  background-color: #181818;
+  border-radius: 15px;
+  margin: 1;
 }
