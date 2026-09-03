@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #2a2a2a;
+   background-color: #202231;
 }
 
 #navbar {
@@ -21,45 +21,26 @@ body {
 .banner {
   width: 50vw;
   height: 5vw;
-  background-color: #5c5c5c;
+    background-color: #2e3145;
   align-items: center;
   display: flex;
-  
-  border-bottom: 2px solid #00ffff; 
-  
-  box-shadow: 
-    0 10px 10px -5px #00ffff,
-    0 15px 20px -5px #00ffff,
-    0 20px 30px -5px #00ffff;
 }
 
 #b1 {
-  background-color: #5c5c5c;
+    background-color: #2e3145;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 4;
   width: 36%;
-    border-bottom: 2px solid #00ffff; 
-  
-  box-shadow: 
-    0 10px 10px -5px #00ffff,
-    0 15px 20px -5px #00ffff,
-    0 20px 30px -5px #00ffff;
 }
 
 #b2 {
-  background-color: #5c5c5c;
+  background-color: #2e3145;
   display: flex;
   justify-content: space-around;
   width: 64%;
   align-items: center;
-    border-bottom: 2px solid #00ffff; 
-  
-  box-shadow: 
-    0 10px 10px -5px #00ffff,
-    0 15px 20px -5px #00ffff,
-    0 20px 30px -5px #00ffff;
 }
 
 .Logo {
@@ -174,27 +155,84 @@ body {
   font-weight: bold;
 }
 
-.page-container {
+
+.page-container { 
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 100px; 
+    width: 100%;
+    padding: 2vw;
+    box-sizing: border-box;
+}
+
+.left-column { 
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    width: 45vw;
+}
+
+#Block1 { 
+    background-color: red; 
+}
+
+#UpperSubtitle { 
+  color: rgb(54, 101, 195);
+    font-size: 1.2rem;
+    font-weight: bold; 
+}
+
+#MainTitle { 
+    color: white; 
+    font-size: 3rem;
+    font-weight: bold; 
+}
+
+#Subtitle { 
+    color: rgb(185, 185, 185); 
+    font-size: 1.1rem; 
+    font-weight: bold; 
+}
+
+/* Left column */
+#WorkAreaMain { 
+    width: 38vw; 
+    height: 19vw; 
+    border-radius: 0.7vw; 
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border: 5px solid #2e3145;
+     background-color: #151620;
+}
+#MiniBarAreaMain{
+  background-color: #2e3145;
   display: flex;
   justify-content: start;
-  margin-bottom: 100px;
-  position:absolute
+  width: 5rem;
+  height: 1.6rem;
 }
-
-.left-column {
+#BigAreaMain{
   display: flex;
-  justify-content: center;
+  width: 2000rem;
+  height: 14.5rem;
   align-items: center;
-}
-
-.AdImage {
-  width: 310px;
-  height: 220px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   justify-content: space-around;
-  background-color: #181818;
-  border-radius: 15px;
-  margin: 1;
+}
+.IconsAreaMain {
+  display: flex;
+  width: 10vw;
+  height: 10vw;
+}
+/*-----Sections Buttons -----*/
+#MainButton1 {
+  width: 14.5vw;
+  height: 3.5vw;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgb(0, 44, 107);
+}
+#MainButton2 {
+
 }
