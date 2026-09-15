@@ -12,35 +12,39 @@ body {
   display: flex;
 }
 
-#navbar nav {
-  display: flex;
-  justify-content: space-between;
-  width: 50vw;
-}
-
 .banner {
-  width: 50vw;
+  width: 35vw;
   height: 5vw;
-    background-color: #2e3145;
+  background-color: #2e3145;
   align-items: center;
   display: flex;
 }
 
+#navbar nav {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; 
+  width: 65vw;
+  background-color: #2e3145; 
+  padding: 0 1.5vw;
+}
+
+/* Alinha o botão 'Search Assets' */
 #b1 {
     background-color: #2e3145;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 4;
-  width: 36%;
+  gap: 1rem;
+  height: 100%;
 }
 
+/* Alinha o botão 'Options' e as imagens do lado direito */
 #b2 {
   background-color: #2e3145;
   display: flex;
-  justify-content: space-around;
-  width: 64%;
   align-items: center;
+  gap: 1rem;
+  height: 100%;
 }
 
 .Logo {
@@ -226,13 +230,21 @@ body {
   height: 10vw;
 }
 /*-----Sections Buttons -----*/
-#MainButton1 {
-  width: 14.5vw;
-  height: 3.5vw;
-  font-size: 1rem;
-  font-weight: bold;
-  background-color: rgb(0, 44, 107);
+.container-botoes {
+  display: flex;
+  gap: 1rem; /* Controla o espaço de separação entre um botão e outro */
 }
-#MainButton2 {
 
+.ButtonOption { 
+  width: 13vw; /* Reduzido para ficar menor */
+  height: 4vw; /* Diferente da largura para formar um retângulo */
+  font-size: 0.9rem; 
+  font-weight: bold; 
+  background-color: rgb(135, 206, 250); 
+  border: 3px dotted rgb(255, 255, 255); /* 'dotted' cria o efeito quadriculado/pontilhado */
+  border-radius: 8px; /* Arredonda apenas os cantos do retângulo */
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  cursor: pointer;
 }

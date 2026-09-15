@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+   background-color: #202231;
+}
+
+.banner2 {
+  width: 100vw;
+  height: 5vw;
+  background-color: #2e3145;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#MPTxt {
+  color: rgb(255, 255, 255);
+  font-family: 'Arial Black', sans-serif; 
+  font-size: 2.5rem; 
+  text-transform: uppercase;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 67%;
+  height: 100%;
+
+  /* Efeitos */
+  -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.8);
+  text-shadow: 
+    0px 4px 10px rgba(0, 0, 0, 0.5),   
+    0px 0px 25px rgba(255, 255, 255, 0.2); 
+    
+  animation: pulsar 3s ease-in-out infinite;
+}
+
+@keyframes pulsar {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+
+#VisualEffectsIcn {
+  color: rgb(255, 255, 255);
+  font-family: 'Arial Black', sans-serif;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  display: inline-block;
+
+  margin-top: 20px;
+  margin-left: 20px;
+
+  -webkit-text-stroke: 1.2px rgba(0, 0, 0, 0.9);
+  text-shadow: 
+    0px 3px 8px rgba(0, 0, 0, 0.6),
+    0px 0px 15px rgba(255, 255, 255, 0.1);
+
+}
+
+#Pack1 {
+
+}
