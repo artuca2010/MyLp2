@@ -62,5 +62,11 @@ body {
 }
 
 #Pack1 {
+    height: 15vw;
+    width: 22vw;
+    background-color: #474853;
+    border-radius: 8%;
+    margin-top: 20px;
+    margin-left: 20px;
 
 }
