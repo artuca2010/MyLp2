@@ -248,3 +248,21 @@ body {
   justify-content: center; 
   cursor: pointer;
 }
+
+/*-- THIRD and LAST section (about Us) ---*/
+
+#AboutUsTitle {
+    color: white;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-left: 4vw;
+    font-family: sans-serif;
+    margin-bottom: 4px;
+}
+
+#AboutUsText {
+    color: rgb(176, 176, 176);
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
