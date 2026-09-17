@@ -61,12 +61,57 @@ body {
 
 }
 
-#Pack1 {
-    height: 15vw;
+.PackHandle {
+  height: 5rem;
+  width: 3rem;
+  display: flex;
+}
+
+.PackWrapper {
     width: 22vw;
-    background-color: #474853;
+    height: 27vw;
     border-radius: 8%;
     margin-top: 20px;
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
 
+.Packs {
+    width: 100%;
+    height: 15vw;
+    display: flex;
+}
+
+.PackImages {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.PackInfoPlaceholder {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    /* MODIFICADO: Alinha os textos no topo da área azul, logo abaixo da imagem */
+    justify-content: flex-start; 
+    /* OPCIONAL: Adiciona um espacinho interno no topo e nas laterais */
+    padding: 12px 15px; 
+}
+
+.PackTitle {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vw;
+    font-family: sans-serif; /* Adicionado para combinar com o visual */
+    margin-bottom: 4px; /* Garante um espacinho para o futuro subtítulo não colar */
+}
+
+.packInfoSubtitle {
+    color: rgb(176, 176, 176);
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: sans-serif;
 }
