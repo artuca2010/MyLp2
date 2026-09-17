@@ -263,6 +263,7 @@ body {
 #AboutUsText {
     color: rgb(176, 176, 176);
     font-weight: bold;
-    font-size: 2rem;
+    margin-left: 0.8vw;
+    font-size: 1.5rem;
     font-family: sans-serif;
 }
